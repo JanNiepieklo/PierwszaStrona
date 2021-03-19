@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-image: url("background2.jpg");
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana;
+  color: #ffffff;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #DC143C;
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  padding: 30px;
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+.left {
+  width: 80%;
+  text-align: justify;
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+.right {
+  width: 15%;
+  text-align: left;
+  font-size: 16px;
+  font-family: Verdana;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
