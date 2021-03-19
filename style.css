@@ -17,7 +17,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #DC143C;
+  background-color: red;
   font-size: 18px;
   font-family: Verdana;
 }
@@ -41,6 +41,7 @@ body {
   padding: 30px;
   font-size: 18px;
   font-family: Verdana;
+  margin-bottom: 40px;
 }
 
 .left {
@@ -61,6 +62,18 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-family: Verdana;
 }
 
 }
