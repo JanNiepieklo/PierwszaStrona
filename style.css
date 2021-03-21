@@ -36,30 +36,44 @@ body {
   color: black;
 }
 
-/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
-/* Left and right column */
-.column.side {
-  width: 25%;
+/*.column.side {
+  width: 20%;
+  font-size: 16px;
+  font-family: Verdana;
+}*/
+.column.left {
+  width: 20%;
+  font-size: 16px;
+  font-family: Verdana;
 }
 
-/* Middle column */
-.column.middle {
-  width: 50%;
+.column.center {
+  width: 60%;
+  font-size: 16px;
+  font-family: Verdana;
+  text-align: justify;
 }
 
-/* Clear floats after the columns */
+.column.right {
+  width: 20%;
+  font-size: 16px;
+  font-family: Verdana;
+}
+
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
@@ -76,4 +90,26 @@ body {
   text-align: center;
   font-size: 16px;
   font-family: Verdana;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  height: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
